@@ -19,7 +19,12 @@ public class ConverterBean {
     }
 
     public void setResult(String result) {
-        this.result = result;
+        double conversionFactor = 39.37;
+        double metersToConvert = Double.parseDouble(result);
+        double  inches = conversionFactor * metersToConvert;
+        String inchesString = Double.toString(inches);
+
+        this.result = result + " m = " + inchesString + " inches";
     }
 
     public void setConversionSummary(String conversionSummary) {

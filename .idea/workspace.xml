@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/result.xhtml" afterPath="$PROJECT_DIR$/web/result.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" afterPath="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" />
     </list>
     <ignored path="JSFDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConverterBean.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConverterBean.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/bean/ConverterBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="4" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+            <state line="26" column="66" selection-start="950" selection-end="950" vertical-scroll-proportion="0.6692607">
               <folding />
             </state>
           </provider>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="result.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/result.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="268" selection-end="268" vertical-scroll-proportion="0.27868852">
+            <state line="18" column="55" selection-start="542" selection-end="542" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/ConverterBean.java" />
         <option value="$PROJECT_DIR$/web/input_number.xhtml" />
-        <option value="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" />
         <option value="$PROJECT_DIR$/web/result.xhtml" />
+        <option value="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" />
       </list>
     </option>
   </component>
@@ -593,12 +593,16 @@
       <created>1386687882948</created>
       <updated>1386687882948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1386688146461</created>
+      <updated>1386688146461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,11 +621,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6015625" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6015625" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50558037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -733,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/bean/ConverterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="4" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/input_number.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="64" selection-start="469" selection-end="469" vertical-scroll-proportion="-10.461538">
@@ -749,7 +746,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/result.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="268" selection-end="268" vertical-scroll-proportion="0.27868852">
+        <state line="18" column="55" selection-start="542" selection-end="542" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/bean/ConverterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="66" selection-start="950" selection-end="950" vertical-scroll-proportion="0.6692607">
           <folding />
         </state>
       </provider>
