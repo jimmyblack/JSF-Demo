@@ -13,6 +13,7 @@ public class ConverterBean {
 
     private String result;
     private String conversionSummary;
+    private String buttonLabel;
 
     public String getResult() {
         return result;
@@ -20,11 +21,22 @@ public class ConverterBean {
 
     public void setResult(String result) {
         double conversionFactor = 39.37;
-        double metersToConvert = Double.parseDouble(result);
-        double  inches = conversionFactor * metersToConvert;
-        String inchesString = Double.toString(inches);
+        try {
+            double metersToConvert = Double.parseDouble(result);
+            double  inches = conversionFactor * metersToConvert;
+            String inchesString = Double.toString(inches);
 
-        this.result = result + " m = " + inchesString + " inches";
+            this.result = result + " m = " + inchesString + " inches";
+
+            setConversionSummary("CONVERSION RESULT");
+            setButtonLabel("Convert another number");
+        } catch (NumberFormatException e) {
+            this.result = "\"" + result + "\" is not a number.";
+            if (result.isEmpty()) this.result = "You forgot to specify the number of meters.";
+
+            setConversionSummary("CONVERSION FAILED");
+            setButtonLabel("Try once more");
+        }
     }
 
     public void setConversionSummary(String conversionSummary) {
@@ -33,6 +45,14 @@ public class ConverterBean {
 
     public String getConversionSummary() {
         return conversionSummary;
+    }
+
+    public String getButtonLabel() {
+        return buttonLabel;
+    }
+
+    public void setButtonLabel(String buttonLabel) {
+        this.buttonLabel = buttonLabel;
     }
 
 }

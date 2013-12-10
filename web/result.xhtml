@@ -12,10 +12,10 @@
 </h:head>
 
 <h:body>
-    <h:outputText value="Conversion result"/><br/><br/>
+    <h:outputText value="#{converterBean.conversionSummary}"/><br/><br/>
     <h:outputText value="#{converterBean.result}"/><br/><br/>
     <h:form>
-        <h:commandButton action="back" value="Convert another number"/>
+        <h:commandButton action="back" value="#{converterBean.buttonLabel}"/>
     </h:form>
 </h:body>
 
