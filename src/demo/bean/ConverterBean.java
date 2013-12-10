@@ -12,6 +12,7 @@ package demo.bean;
 public class ConverterBean {
 
     private String result;
+    private String conversionSummary;
 
     public String getResult() {
         return result;
@@ -19,6 +20,14 @@ public class ConverterBean {
 
     public void setResult(String result) {
         this.result = result;
+    }
+
+    public void setConversionSummary(String conversionSummary) {
+        this.conversionSummary = conversionSummary;
+    }
+
+    public String getConversionSummary() {
+        return conversionSummary;
     }
 
 }
