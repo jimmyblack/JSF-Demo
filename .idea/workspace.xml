@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="m to inches conversion formula">
+    <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" afterPath="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/result.xhtml" afterPath="$PROJECT_DIR$/web/result.xhtml" />
     </list>
     <ignored path="JSFDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -608,7 +606,11 @@
       <created>1386689435881</created>
       <updated>1386689435881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="m to inches conversion formula">
+      <created>1386692183946</created>
+      <updated>1386692183946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
