@@ -54,8 +54,10 @@ public class LoginBean extends AbstractBackingBean {
         this.password = password;
     }
 
+    /**
+     * Login action
+     */
     public String loginAction() {
-        FacesMessage.Severity severity = null;
         String action = null;
         String msg = null;
         FacesMessage facesMsg = null;
