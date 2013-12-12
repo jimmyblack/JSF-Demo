@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: Buzac
+  Date: 12/10/13
+  Time: 2:00 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:cl="http://java.sun.com/jsf/composite/component/login"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>JSF Demo</title>
+</h:head>
+
+<h:body>
+
+    <ui:composition template="template/layout.xhtml">
+    <ui:define name = "content">
+
+        <cl:loginPanel
+                usernameValue="#{loginBean.username}"
+                passwordValue="#{loginBean.password}"
+
+                loginBean="loginBean"
+                loginButtonAction="#{loginBean.loginAction}"
+
+                usernameValidatorMessage="Username must be at least 5 characters in length."
+                passwordValidatorMessage="Password must be betweeen 5 and 10 characters in length.">
+            <f:validateLength for="username" minimum="5"/>
+            <f:validateLength for="password" minimum="5" maximum="10"/>
+        </cl:loginPanel>
+
+    </ui:define>
+    </ui:composition>
+
+</h:body>
+</html>

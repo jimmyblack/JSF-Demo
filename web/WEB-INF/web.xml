@@ -24,7 +24,7 @@
     </servlet-mapping>
 
     <welcome-file-list>
-        <welcome-file>input_number.xhtml</welcome-file>
+        <welcome-file>loginPage.xhtml</welcome-file>
     </welcome-file-list>
 
 </web-app>

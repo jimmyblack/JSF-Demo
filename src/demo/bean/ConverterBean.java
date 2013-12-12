@@ -6,10 +6,13 @@
 // --------------------------------------------------------------------------
 package demo.bean;
 
+import javax.faces.bean.ManagedBean;
+
 /**
  * @author Bogdan Buzac
  */
-public class ConverterBean {
+@ManagedBean
+public class ConverterBean extends AbstractBackingBean {
 
     private String result;
     private String conversionSummary;
@@ -38,6 +41,7 @@ public class ConverterBean {
             setButtonLabel("Try once more");
         }
     }
+
 
     public void setConversionSummary(String conversionSummary) {
         this.conversionSummary = conversionSummary;
