@@ -4,7 +4,7 @@
 // and is not to be divulged or used by parties who have not received written
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
-package demo.bean;
+package main.java.demo.bean;
 
 import javax.faces.bean.ManagedBean;
 

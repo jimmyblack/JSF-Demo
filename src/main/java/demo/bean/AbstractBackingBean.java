@@ -5,7 +5,7 @@
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
 
-package demo.bean;
+package main.java.demo.bean;
 
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;

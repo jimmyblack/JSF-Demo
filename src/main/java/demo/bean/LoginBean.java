@@ -5,16 +5,11 @@
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
 
-package demo.bean;
+package main.java.demo.bean;
 
-
-import org.springframework.context.annotation.Scope;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
-import javax.faces.context.FacesContext;
-import javax.faces.view.facelets.FaceletContext;
 
 /**
  * @author Bogdan Buzac
