@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" />
-      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\out\artifacts\JSFDemo_war_exploded\WEB-INF\classes\demo\bean\ConverterBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\out\artifacts\JSFDemo_war_exploded\WEB-INF\classes\spring-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\out\production\JSFDemo\demo\bean\ConverterBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\out\production\JSFDemo\spring-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\src\spring-config.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\out\artifacts\JSFDemo_war_exploded\WEB-INF\classes\spring-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/META_INF/spring-config.xml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\src\demo\bean\AbstractBackingBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\src\demo\bean\ConverterBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\src\demo\bean\LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\WEB-INF\faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\WEB-INF\web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\input_number.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/input_number.xhtml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\loginPage.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/loginPage.xhtml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\result.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/result.xhtml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\template\footer.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/footer.xhtml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\template\header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" />
-      <change type="MOVED" beforePath="C:\work\projects\JSFDemo\web\template\layout.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout.xhtml" />
+      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\out\artifacts\JSFDemo_war_exploded\WEB-INF\faces-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\src\main\resources\META_INF\spring-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\src\main\webapp\WEB-INF\faces-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\work\projects\JSFDemo\web\resources\component\login\loginPanel.xhtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFDemo.iml" afterPath="$PROJECT_DIR$/JSFDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" afterPath="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java" afterPath="$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/loginPage.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/loginPage.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" />
     </list>
     <ignored path="JSFDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +81,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -98,46 +91,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/stylesheet.css">
+      <file leaf-file-name="faces-config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.031481482">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginPage.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginPage.xhtml">
+      <file leaf-file-name="loginPanel.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/component/login/loginPanel.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="60" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3618182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input_number.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/input_number.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+            <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -146,34 +118,18 @@
       <file leaf-file-name="UITimeComponent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="40" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="21" column="24" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customUI.taglib.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml">
+      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="55" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/result.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+            <state line="2" column="100" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,9 +138,63 @@
       <file leaf-file-name="UITags.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="12" column="35" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customUI.taglib.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="31" selection-start="433" selection-end="442" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginPage.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginPage.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="4" selection-start="639" selection-end="639" vertical-scroll-proportion="-4.3846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/template/header.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="24" selection-start="613" selection-end="613" vertical-scroll-proportion="-13.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="42" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-18.5">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -202,22 +212,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/demo/bean/AbstractBackingBean.java" />
-        <option value="$PROJECT_DIR$/src/demo/bean/ConverterBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/resources/component/login/loginPanel.xhtml" />
-        <option value="$PROJECT_DIR$/web/template/footer.xhtml" />
-        <option value="$PROJECT_DIR$/web/resources/stylesheet.css" />
-        <option value="$PROJECT_DIR$/src/demo/bean/LoginBean.java" />
-        <option value="$PROJECT_DIR$/src/demo/component/UITimeComponent.java" />
-        <option value="$PROJECT_DIR$/src/demo/component/util/UITags.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/demo/component/time/UITimeComponent.java" />
         <option value="$PROJECT_DIR$/web/loginPage.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/custom-component.taglib.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/customUI.taglib.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeTag.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/loginPage.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/faces-config.xml" />
       </list>
     </option>
   </component>
@@ -595,6 +605,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -646,6 +682,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -662,6 +706,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSFDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -700,14 +812,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="292" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
@@ -721,14 +833,14 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -737,11 +849,11 @@
       <recent name="C:\work\projects\JSFDemo\web\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\projects\JSFDemo\src\main\webapp\WEB-INF" />
+      <recent name="C:\work\projects\JSFDemo\src\main\webapp\META-INF\resources" />
+      <recent name="C:\work\projects\JSFDemo\src\main\webapp\META-INF" />
       <recent name="C:\work\projects\JSFDemo\src\main\webapp\component\login" />
       <recent name="C:\work\projects\JSFDemo\src\main\resources\META_INF" />
-      <recent name="C:\work\projects\JSFDemo\src\main\webapp" />
-      <recent name="C:\work\projects\JSFDemo\src\main\webapp\WEB-INF" />
-      <recent name="C:\work\projects\JSFDemo\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7">
@@ -989,7 +1101,11 @@
       <created>1386861050874</created>
       <updated>1386861050874</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="restructure">
+      <created>1386931436134</created>
+      <updated>1386931436134</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1022,18 +1138,18 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3470982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3470982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.65290177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50558037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1109,85 +1225,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="677" selection-end="677" vertical-scroll-proportion="0.09479554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/footer.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="501" selection-end="501" vertical-scroll-proportion="-11.769231" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.27321428" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/template/layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="41" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/input_number.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/result.xhtml">
@@ -1197,16 +1237,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/input_number.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/AbstractBackingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/ConverterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="42" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-18.5">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/bean/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="613" selection-end="613" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/component/login/loginPanel.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/component/util/UITags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" />
+        <state line="12" column="35" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="100" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/loginPage.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="60" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3618182">
+        <state line="24" column="4" selection-start="639" selection-end="639" vertical-scroll-proportion="-4.3846154">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="433" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.031481482">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

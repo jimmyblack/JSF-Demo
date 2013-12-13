@@ -14,8 +14,8 @@
       xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:cl="http://java.sun.com/jsf/composite/component/login"
       xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:cui="http://jsfcompref.com/customUI">
-
+      xmlns:cui="http://jsfcustomcomponent.com/customUI"
+      >
 <h:head>
     <title>JSF Demo</title>
 </h:head>
@@ -25,8 +25,6 @@
     <ui:composition template="template/layout.xhtml">
     <ui:define name = "content">
 
-        <!--<cui:timeComponent/>-->
-        <br/>
         <cl:loginPanel
                 usernameValue="#{loginBean.username}"
                 passwordValue="#{loginBean.password}"

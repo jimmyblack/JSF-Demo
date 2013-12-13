@@ -9,7 +9,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:ui="http://java.sun.com/jsf/facelets" >
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:cui="http://jsfcustomcomponent.com/customUI">
 
 <h:body>
 
@@ -17,6 +18,7 @@
         <div id = "header">
             <div id="header-txt">
                 <h:outputText value = "JSF Demo" />
+                <cui:timeComponent/>
             </div>
         </div>
     </ui:composition>

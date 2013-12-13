@@ -5,35 +5,47 @@
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
 
-package main.java.demo.component.time;
+package demo.component.time;
 
 
-import main.java.demo.component.util.UITags;
+import demo.component.util.UITags;
 
 import javax.faces.component.FacesComponent;
 import javax.faces.component.UIComponentBase;
 import javax.faces.context.FacesContext;
 import javax.faces.context.ResponseWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@FacesComponent(value = "timeComponent")
+/**
+ * @author Bogdan Buzac
+ * @since 2013.12.12
+ *
+ */
+@FacesComponent(value = "component.time")
 public class UITimeComponent extends UIComponentBase {
+
+    private static final String COMPONENT_TYPE = "component.time";
 
     @Override
     public String getFamily() {
-        return null;
+        return COMPONENT_TYPE;
     }
 
     @Override
     public void encodeAll(FacesContext context) throws IOException {
         ResponseWriter writer = context.getResponseWriter();
 
-        writer.startElement(UITags.DIV_TAG, this);
+        writer.startElement(UITags.SPAN_TAG, this);
         writer.writeAttribute("id", getClientId(context), null);
-        writer.writeAttribute("style", "color: red", null);
-        writer.writeText("the time is: " + new Date(), null);
-        writer.endElement(UITags.DIV_TAG);
+        writer.writeAttribute("class", "timeComponent", null);
+
+        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm  dd.MM.yyyy");
+        String formattedDate = sdf.format(new Date());
+        writer.writeText(formattedDate, null);
+
+        writer.endElement(UITags.SPAN_TAG);
     }
 
 }

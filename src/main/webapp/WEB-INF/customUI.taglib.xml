@@ -3,11 +3,14 @@
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd"
                 version="2.0">
-    <namespace>http://jsfcompref.com/customUI</namespace>
+
+    <namespace>http://jsfcustomcomponent.com/customUI</namespace>
+
     <tag>
         <tag-name>timeComponent</tag-name>
         <component>
-            <component-type>main.java.demo.component.time.UITimeComponent</component-type>
+            <component-type>component.time</component-type>
         </component>
     </tag>
+
 </facelet-taglib>

@@ -5,10 +5,11 @@
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
 
-package main.java.demo.component.util;
+package demo.component.util;
 
 public class UITags {
 
     public static final String DIV_TAG = "div";
+    public static final String SPAN_TAG = "span";
 
 }
