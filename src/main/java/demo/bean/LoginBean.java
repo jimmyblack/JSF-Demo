@@ -8,6 +8,8 @@
 package demo.bean;
 
 
+import demo.util.UITools;
+
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 
@@ -60,18 +62,21 @@ public class LoginBean extends AbstractBackingBean {
         if (USERNAME.equalsIgnoreCase(getUsername()) &&
             PASSWORD.equalsIgnoreCase(getPassword())) {
             action = "next";
+/*
             msg = "Success.  Your user name is \'" + getUsername() +
                   "\' and your password is \'" + getPassword() + "\'";
-            facesMsg = new FacesMessage(msg, msg);
+
+            UITools.addSuccessMessage(getContext(), msg);
+*/
         } else {
             action = "failed";
             msg = "Failure. Your user name is \'" + getUsername() +
                   "\' and your password is \'" + getPassword() + "\'." +
                    " Try user: admin, pass: admin";
-            facesMsg = new FacesMessage(FacesMessage.SEVERITY_ERROR, msg, msg);
+
+            UITools.addErrorMessage(getContext(), msg);
         }
 
-        getContext().addMessage(null, facesMsg);
         return action;
     }
 

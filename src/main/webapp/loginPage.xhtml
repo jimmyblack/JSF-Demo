@@ -12,17 +12,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:cl="http://java.sun.com/jsf/composite/component/login"
+      xmlns:cl="http://java.sun.com/jsf/composite/component"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:cui="http://jsfcustomcomponent.com/customUI"
       >
 <h:head>
+    <link href="/resources/stylesheet.css" rel="stylesheet" type="text/css" />
     <title>JSF Demo</title>
 </h:head>
 
 <h:body>
 
-    <ui:composition template="template/layout.xhtml">
+    <ui:composition template="template/loginLayout.xhtml">
     <ui:define name = "content">
 
         <cl:loginPanel

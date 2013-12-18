@@ -5,11 +5,16 @@
 // authorization from Optymyze Pte. Ltd.
 // --------------------------------------------------------------------------
 
-package demo.component.util;
+package demo.service.exception;
 
-public class UITags {
+public class BusinessException extends Exception {
 
-    public static final String DIV_TAG = "div";
-    public static final String SPAN_TAG = "span";
+    public BusinessException(String message) {
+        super(message);
+    }
+
+    public BusinessException(Throwable cause) {
+        super(cause);
+    }
 
 }

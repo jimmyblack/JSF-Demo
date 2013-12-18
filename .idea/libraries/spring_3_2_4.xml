@@ -18,7 +18,8 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-test-3.2.4.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-tx-3.2.4.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-3.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lib/spring/com.springsource.org.aopalliance-1.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

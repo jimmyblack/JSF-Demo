@@ -22,17 +22,21 @@
 
         <ui:include src="header.xhtml"/>
 
-        <div class = "content">
-            <h:form>
+        <ui:include src="menu.xhtml"/>
+
+        <div id = "content">
+            <h:form id = "contentPanel">
+
                 <h:panelGroup>
-
-                     <ui:insert name = "content" />
-
+                    <ui:insert name = "content" />
                 </h:panelGroup>
+
             </h:form>
+
+            <ui:include src="footer.xhtml"/>
+
         </div>
 
-        <ui:include src="footer.xhtml"/>
 
     </div>
 </h:body>

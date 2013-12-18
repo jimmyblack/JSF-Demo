@@ -8,7 +8,7 @@
 package demo.component.time;
 
 
-import demo.component.util.UITags;
+import demo.util.UIConstants;
 
 import javax.faces.component.FacesComponent;
 import javax.faces.component.UIComponentBase;
@@ -37,7 +37,7 @@ public class UITimeComponent extends UIComponentBase {
     public void encodeAll(FacesContext context) throws IOException {
         ResponseWriter writer = context.getResponseWriter();
 
-        writer.startElement(UITags.SPAN_TAG, this);
+        writer.startElement(UIConstants.SPAN_TAG, this);
         writer.writeAttribute("id", getClientId(context), null);
         writer.writeAttribute("class", "timeComponent", null);
 
@@ -45,7 +45,7 @@ public class UITimeComponent extends UIComponentBase {
         String formattedDate = sdf.format(new Date());
         writer.writeText(formattedDate, null);
 
-        writer.endElement(UITags.SPAN_TAG);
+        writer.endElement(UIConstants.SPAN_TAG);
     }
 
 }
