@@ -23,10 +23,10 @@ import java.util.Date;
  * @since 2013.12.12
  *
  */
-@FacesComponent(value = "component.time")
+@FacesComponent(value = "timeCC")
 public class UITimeComponent extends UIComponentBase {
 
-    private static final String COMPONENT_TYPE = "component.time";
+    private static final String COMPONENT_TYPE = "timeCC";
 
     @Override
     public String getFamily() {
@@ -39,7 +39,7 @@ public class UITimeComponent extends UIComponentBase {
 
         writer.startElement(UIConstants.SPAN_TAG, this);
         writer.writeAttribute("id", getClientId(context), null);
-        writer.writeAttribute("class", "timeComponent", null);
+        writer.writeAttribute("class", "timeCC", null);
 
         SimpleDateFormat sdf = new SimpleDateFormat("hh:mm  dd.MM.yyyy");
         String formattedDate = sdf.format(new Date());

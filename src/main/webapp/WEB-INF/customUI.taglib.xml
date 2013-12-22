@@ -7,9 +7,9 @@
     <namespace>http://jsfcustomcomponent.com/customUI</namespace>
 
     <tag>
-        <tag-name>timeComponent</tag-name>
+        <tag-name>timeCC</tag-name>
         <component>
-            <component-type>component.time</component-type>
+            <component-type>timeCC</component-type>
         </component>
     </tag>
 
