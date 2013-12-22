@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="dataTable implementation">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFDemo.iml" afterPath="$PROJECT_DIR$/JSFDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" afterPath="$PROJECT_DIR$/src/main/java/demo/component/time/UITimeComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/customUI.taglib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/header.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/layout.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/layout.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/template/menu.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/template/menu.xhtml" />
+    <list default="true" id="87856b79-2af6-4d50-86f0-178c04516f82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JSFDemo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87856b79-2af6-4d50-86f0-178c04516f82" time="1387646422495" ignored="false" />
+    <file path="/Dummy.txt" changelist="87856b79-2af6-4d50-86f0-178c04516f82" time="1387726778329" ignored="false" />
     <file path="/jsPage.xhtml" changelist="87856b79-2af6-4d50-86f0-178c04516f82" time="1387725454386" ignored="false" />
     <file path="/script.js" changelist="87856b79-2af6-4d50-86f0-178c04516f82" time="1387724987369" ignored="false" />
     <file path="/menu.xhtml" changelist="87856b79-2af6-4d50-86f0-178c04516f82" time="1387726144929" ignored="false" />
@@ -852,7 +845,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataTable implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript workshop 01" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -876,6 +869,7 @@
     <MESSAGE value="restructure" />
     <MESSAGE value="timeComponent - non composite component" />
     <MESSAGE value="dataTable implementation" />
+    <MESSAGE value="javascript workshop 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
