@@ -38,10 +38,10 @@ public class UITimeComponent extends UIComponentBase {
         ResponseWriter writer = context.getResponseWriter();
 
         writer.startElement(UIConstants.SPAN_TAG, this);
-        writer.writeAttribute("id", getClientId(context), null);
+        writer.writeAttribute("id", "timeCCId", null);
         writer.writeAttribute("class", "timeCC", null);
 
-        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm  dd.MM.yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("h:mm:ss aa");
         String formattedDate = sdf.format(new Date());
         writer.writeText(formattedDate, null);
 
