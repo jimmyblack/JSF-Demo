@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	
+<h:head>
+</h:head>
+<h:body>
+
+	<ui:composition template="./template/layout.xhtml">
+		<ui:define name="content">
+
+	<h:panelGroup styleClass="carFormContainer">
+	
+	<div class="formTableTitleBar">
+       <h:outputLabel class="formTitleLabel">
+           <h:outputText value="Add car" rendered="#{inventoryMgrBean.newCar}"/>
+           <h:outputText value="Update car" rendered="#{not inventoryMgrBean.newCar}"/>
+       </h:outputLabel>
+    </div>
+
+		<h:panelGrid columns="3" styleClass="panelGridFrm">
+			<h:panelGroup styleClass="panelGroupFrm">
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="brand" styleClass="labelFrm">
+						<h:outputText value="Brand" />
+					</h:outputLabel>
+					<h:inputText id="brand"
+						value="#{inventoryMgrBean.selectedCar.brand}"
+                        required="true" requiredMessage="Brand field is required"
+                        styleClass="inputTxtFrm"/>
+                    <h:message for="brand"/>
+                </div>
+
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="model" styleClass="labelFrm">
+						<h:outputText value="Model" />
+					</h:outputLabel>
+					<h:inputText id="model" required="true"
+						value="#{inventoryMgrBean.selectedCar.model}"
+						styleClass="inputTxtFrm"/>
+				</div>
+
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="body" styleClass="labelFrm">
+						<h:outputText value="Body" />
+					</h:outputLabel>
+					<h:inputText id="body"
+						value="#{inventoryMgrBean.selectedCar.body}"
+						styleClass="inputTxtFrm"/>
+				</div>
+			</h:panelGroup>
+
+			<h:panelGroup styleClass="panelGroupFrm">
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="year">
+						<h:outputText value="Year" styleClass="labelFrm"/>
+					</h:outputLabel>
+					<h:inputText id="year" required="true"
+						value="#{inventoryMgrBean.selectedCar.year}"
+						styleClass="inputTxtFrm"/>
+				</div>
+
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="fuel" styleClass="labelFrm">
+						<h:outputText value="Fuel" />
+					</h:outputLabel>
+					<h:inputText id="fuel" required="true"
+						value="#{inventoryMgrBean.selectedCar.fuel}"
+						styleClass="inputTxtFrm"/>
+				</div>
+
+				<div class="rowPanelGroupFrm">
+					<h:outputLabel for="price" styleClass="labelFrm">
+						<h:outputText value="Price" />
+					</h:outputLabel>
+					<h:inputText id="price" required="true"
+						value="#{inventoryMgrBean.selectedCar.price}"
+						styleClass="inputTxtFrm"/>
+				</div>
+			</h:panelGroup>
+
+		</h:panelGrid>
+
+	 	<h:panelGroup styleClass="actionButtonsFrm">
+
+		    <h:commandButton id="submitAdd"
+		      action="#{inventoryMgrBean.createCarFormAction}" value="Add"
+		      rendered="#{inventoryMgrBean.newCar}"
+		      styleClass="actionBtnFrm"/>
+
+		    <h:commandButton id="submitUpdate"
+		      action="#{inventoryMgrBean.updateCarFormAction}" value="Update"
+		      rendered="#{not inventoryMgrBean.newCar}"
+		      styleClass="actionBtnFrm"/>
+
+		    <h:commandButton id="cancel"
+		      action="#{inventoryMgrBean.cancelFormAction}" value="Cancel"
+		      rendered="true" immediate="true"
+		      styleClass="actionBtnFrm"/>
+		      
+	 	</h:panelGroup>
+    
+    </h:panelGroup>
+
+	</ui:define>
+	</ui:composition>
+
+</h:body>
+</html>

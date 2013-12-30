@@ -1,0 +1,224 @@
+html {
+    height: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 5px;
+    height: 100%;
+    font-size: 15px;
+}
+
+.timeCC {
+    color: white;
+    float: right;
+    padding-right: 15px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+* html body { 
+    text-align: center;
+}
+
+input { font-size: 11px; }
+
+td { vertical-align: top; }
+
+select { max-width: 15em; }
+
+#header-bg { 
+    display: block;
+    height: 155px;
+    width: 100%;
+    clear:both;
+    color: #ffffff;
+}
+
+#header-bg h2 {
+    line-height: 155px;
+    font-size: 36px;
+    margin: 0px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+#header-txt {
+    display:block;
+    color: #ffffff;
+    background-color: #0C3854;
+    font-size: 24px;
+    height: 36px;
+    clear: both;
+    margin-top: 5px;
+    padding: 3px;
+    padding-left: 15px;
+    line-height: 36px;
+}
+
+#header-txt span {
+    color: #ffffff;
+}
+
+#main {
+    margin: 0 auto;
+    width: 750px;
+    display: block;
+    background-color: #ffffff;
+    border: solid 1px #0C3854;
+    padding: 0px;
+    border-radius: 5px 5px 5px 5px;
+    height: 500px;
+}
+
+.scrollablePanel {
+    height: 425px;
+    width: 520px;
+    overflow: scroll;
+}
+
+
+#menu {
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+    background-color: #ffffff;
+    border: solid 1px #0C3854;
+    border-radius: 0px 0px 0px 5px;
+    float: left;
+    position: relative; top: -1px; left: -1px;
+    height: 453px;
+}
+
+#content {
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+#contentPanel {
+    padding: 15px;
+}
+
+#loginContent {
+    padding: 15px;
+}
+
+* html #main {
+    text-align: left;
+}
+
+#main form {
+    display: block;
+    min-height: 300px;
+}
+
+* html #main form {
+    padding: 15px;
+    height: 300px;
+}
+
+.footer {
+    background-color: #D1DFE8;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.formTableTitleBar {
+    background-color: #0C3854;
+    margin-top: 5px;
+    height: 24px;
+    padding: 5px 10px 0px;
+}
+
+.formTitleLabel {
+    display: inline;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+/*
+.mainPanelContainer {
+	margin-top: 5px;
+	margin-left: 15em; 
+	width: 715px; 
+	height: 500px;
+    padding: 15px;
+}
+*/
+
+.panelGridFrm {
+	margin-left: 30px;
+}
+
+.panelGroupFrm {
+	padding: 10px 10px;
+	width: 290px;
+}
+
+.rowPanelGroupFrm {
+	margin-left: 20px;
+	width: 100%;
+	clear:both;
+	padding: 5px 10px;
+}
+
+.labelFrm {
+	float: left;
+	padding: 2px 5px;
+}
+
+.inputTxtFrm {
+	float: right;
+	width: 60%;
+	padding: 5px 3px 3px;
+	margin-right: 20px;
+}	
+
+.actionButtonsFrm {
+	float: right;
+	padding: 0px 10px;
+	margin-top: 8px;
+	margin-right: 43px;
+	clear: both;
+}
+
+.actionBtnFrm {
+	margin-right: 5px;
+}
+
+img {
+    height: 63px;
+    width: 90px;
+    float: left;
+}
+
+#braingiaLink {
+    border: solid 1px black;
+    padding: 3px;
+}
+#wrapperP {
+    padding: 20px;
+}
+
+.block {
+    position: relative;
+    background-color: #abc;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+#myDiv {
+    background: #ffffff;
+}
+
+#myDiv:hover {
+    background: whitesmoke;
+}

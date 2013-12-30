@@ -1,0 +1,85 @@
+
+.carTableContainer {
+	width: 100%; 
+	border: 1px solid #7D9C9F; 
+	border-radius: 5px 5px 0px 0px;
+}
+
+.tableTitle {
+    background-color: #E0E0E0;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.tableTitleLabel {
+    display: inline;
+    font-style: italic;
+    font-weight: bolder;
+    float: right;
+    width: 84%;
+    padding: 2px 7px 4px;
+}
+
+.actionBtns {
+    display: inline;
+    float: right;
+    padding: 0px 7px 4px;
+}
+
+/* common to all columns*/
+.idColumn, .modelColumn, .yearColumn, .fuelColumn, .priceColumn {
+    /* border-right: 1px solid #BDD8DA; 
+    border-bottom: 1px solid #BDD8DA; */
+    border-right: none;
+    border-left: none;
+    text-align: right;
+}
+
+.idColumn{
+    width: 90px;
+}
+
+.modelColumn{
+    width: 300px;
+    text-align: left;
+}
+
+.modelColumn{
+    width: 300px;
+    text-align: left;
+}
+
+.yearColumn{
+    width: 75px;
+    text-align: center;
+}
+
+.fuelColumn{
+    width: 75px;
+}
+
+.priceColumn{
+    width: 75px;
+}
+
+.action{
+    width: 80px;
+    text-align: center;
+}
+
+.tableStyle{
+    border: 1px solid #BDD8DA;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+}
+
+.oddRow{
+    background-color: #BDD8DA;
+}
+
+.evenRow{
+    background-color: #DFEFF0;
+}
+

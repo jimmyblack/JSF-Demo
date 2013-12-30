@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+</h:head>
+
+<h:body>
+
+    <ui:composition template="template/layout.xhtml">
+    <ui:define name = "content">
+
+        <!--<div style="width: 300px; height: 100px; border: solid 1px #7D9C9F">-->
+        <div class="scrollablePanel">
+
+            <script type="text/javascript" src="/resources/script.js"></script>
+            <script type="text/javascript" src="/resources/common.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
+            <script type="text/javascript" src="/resources/myJquery.js"></script>
+
+            <div id="block1" class="block"></div>
+            <div id="block2" class="block"></div>
+            <div id="block3" class="block"></div>
+            <div id="block4" class="block"></div>
+
+            <div id="myDiv">
+                I'm a simple div.<br/>
+                Please don't click me!<br/>
+            </div>
+
+
+            <p id="wrapperP">
+                <a id="braingiaLink" href="http://www.braingia.org">Learn Java Script ...</a>
+            </p>
+
+            <h:outputLabel>Input number:</h:outputLabel>
+            <h:inputText id="theNumId" onchange="updateValues(this.value)" />
+            <input type="button" value="Cube Me!"
+                   onclick="cubemeMsg(theNum)"/>
+            <input type="button" value="Browser Info"
+                   onclick="getBrowserInfo()"/>
+
+
+            <script type="text/javascript">
+            // <![CDATA[
+
+                // jquery
+
+                // common.js
+                doWriteLn();
+                var star = {};
+                star["Polaris"] = new Star("Ursa Minor", "Double\Cepheid", "F7", 2.0);
+                star["Vega"] = new Star("Lyra", "White Dwarf", "F7", 2.0);
+                star["Altair"] = new Star("Aquila", "White Dwarf", "F7", 2.0);
+
+                doWriteLn("Display all objects:");
+                for (var elem in star) {
+                    doWriteLn(elem + ": {");
+                    doWrite(star[elem].toString() + "}");
+
+                    for (var starProperty in star[elem]) {
+                        if (typeof star[elem][starProperty] != "function") {
+                            doWriteLn(elem + " : " + starProperty + " = " + star[elem][starProperty]);
+                        }
+                    }
+                }
+
+                doWriteLn();
+                doWriteLn("Lookup for Polaris:");
+                if ("Polaris" in star) {
+                    star["Polaris"].aka = "the north star";
+                    doWriteLn("Polaris found and is also known as " + star["Polaris"].aka);
+                }
+
+                // objects
+                doWriteLn();
+                doWriteLn("person1.getName() = "  + person1.getName());
+                doWriteLn("person1.getName() = "  + person2.getName());
+
+                // anonymous function
+                doWriteLn("");
+                doWriteLn("divNums(8, 2) = " + divNums(8, 2));
+
+                // multiple arguments
+                doWriteLn("");
+                doMultipleArguments("Ana", "are", 5, "mere", new Date());
+
+                // closure function
+                doWriteLn();
+                doWriteLn(celebrity("Michael"));
+                doWriteLn(celebrity("Janet"));
+                doWriteLn(celebrity("LaToya"));
+
+
+                // script.js
+
+                // days counter till new year
+                var date = new Date();
+                doWriteLn("current date is " + date.toLocaleDateString());
+                doWrite("<p id=\"dateField\"/>");
+                computeDaysUntilNewYear("dateField");
+
+                // init the number with the input value
+                theNum = document.getElementById("contentPanel:theNumId").value;
+
+                doWriteLn("dvdId: " + dvdCatalog.id);
+                doWriteLn("dvdName: " + dvdCatalog.name);
+
+
+
+                // ]]>
+            </script>
+
+        </div>
+
+    </ui:define>
+    </ui:composition>
+
+</h:body>
+
+</html>

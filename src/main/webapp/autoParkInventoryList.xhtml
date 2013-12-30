@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:body>
+
+	<ui:composition template="/template/layout.xhtml">
+	<ui:define name="content">
+
+        <script type="text/javascript" src="/resources/jquery-1.7.js"></script>
+        <script type="text/javascript" src="/resources/carListJquery.js"></script>
+
+        <div id="images"></div>
+        <br/><br/><br/>
+
+        <h:panelGroup styleClass="carTableContainer">
+
+			<div class="tableTitle">
+				<div class="actionBtns" style="width: 80px;">
+					<h:commandButton
+						value="Create"
+						style="float: right;"
+						action="#{inventoryMgrBean.addCarListAction}"/>
+				</div>
+				
+				<label class="tableTitleLabel">Inventory table</label>
+			</div>
+			<h:dataTable id="inventory" value="#{inventoryMgrBean.carInventory}"
+				var="carInfo" styleClass="tableStyle" rowClasses="oddRow, evenRow"
+
+				columnClasses="idColumn, imageColumn, modelColumn, yearColumn, fuelColumn, priceColumn, action">
+				<h:column>
+					<f:facet name="header">
+                        <h:outputText value="ID" />
+					</f:facet>
+					<h:outputText value="#{carInfo.id}" />
+				</h:column>
+                <h:column>
+                    <f:facet name="header">
+                        <h:outputText value="Image" />
+                    </f:facet>
+                    <a id = "aCarLink"  href="http://www.w3.org"/>
+                </h:column>
+				<h:column>
+					<f:facet name="header">
+                        <h:outputText value="Model" />
+					</f:facet>
+					<h:outputText value="#{carInfo.brand} #{carInfo.model}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+                        <h:outputText value="Year" />
+					</f:facet>
+					<h:outputText value="#{carInfo.year}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+                        <h:outputText value="Fuel" />
+					</f:facet>
+					<h:outputText value="#{carInfo.fuel}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+                        <h:outputText value="Price" />
+					</f:facet>
+					<h:outputText value="#{carInfo.price}" />
+				</h:column>
+				<h:column>
+					
+					<f:facet name="header">
+						<h:outputText value="Action" />
+					</f:facet>
+					
+					<h:commandButton value="U"
+						action="#{inventoryMgrBean.editCarListAction}"
+						actionListener="#{inventoryMgrBean.editCarListActionListener}">
+						<f:attribute name="carId" value="#{carInfo.id}"/>
+					</h:commandButton>
+					
+					<!-- Unfortunately, panelConfirmation has to be located within the column-Tag! -->
+<!--
+					<h:panelConfirmation id="confirmDeletion"
+					  acceptLabel="OK"  
+					  cancelLabel="Cancel"  
+					  message="You are about to delete. Are you sure?"  
+					  title="Confirm delete"  
+					  draggable="true" 
+					  autoCentre="true" 
+					 /> 
+-->
+					<h:commandButton value="D"
+                        onclick="if (! confirm('Really want to do that?')) return false"
+						action="#{inventoryMgrBean.deleteCarListAction}"
+						actionListener="#{inventoryMgrBean.deleteCarListActionListener}"
+                        update="@form" ajax="true">
+						<!--panelConfirmation="confirmDeletion">-->
+						<f:attribute name="carId" value="#{carInfo.id}"/>
+					</h:commandButton>	
+					
+				</h:column>
+			</h:dataTable>
+
+		</h:panelGroup>
+
+	</ui:define>
+	</ui:composition>
+
+</h:body>
+</html>

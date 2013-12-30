@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <link href="/resources/stylesheet.css" rel="stylesheet" type="text/css" />
+    <title>JSF Facelets Demo</title>
+</h:head>
+
+<h:body>
+    <div id = "main">
+
+        <ui:include src="header.xhtml"/>
+
+        <div id = "loginContent">
+            <h:form id = "contentPanel">
+
+                <h:panelGroup>
+                    <ui:insert name = "content" />
+                </h:panelGroup>
+
+            </h:form>
+        </div>
+
+        <ui:include src="footer.xhtml"/>
+
+    </div>
+</h:body>
+
+</html>

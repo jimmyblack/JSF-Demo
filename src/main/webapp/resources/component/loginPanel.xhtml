@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:cc="http://java.sun.com/jsf/composite">
+
+    <cc:interface>
+        <cc:attribute name="usernameValidatorMessage" default="Invalid username"/>
+        <cc:attribute name="passwordValidatorMessage" default="Invalid password"/>
+
+        <cc:editableValueHolder name="username"/>
+        <cc:editableValueHolder name="password"/>
+
+        <cc:attribute name="usernameValue" targets="username"/>
+        <cc:attribute name="passwordValue" targets="password"/>
+
+        <cc:attribute name="loginBean"/>
+        <cc:attribute name="loginButtonAction"
+                      method-signature="java.lang.String action()"/>
+        <cc:actionSource name="loginButton"/>
+        <cc:attribute name="loginButtonText" default="Login"/>
+
+    </cc:interface>
+
+    <cc:implementation>
+
+        <h:panelGrid columns="3">
+            <h:outputLabel for="#{cc.clientId}:username" value="Username:"/>
+            <h:inputText id="username"
+                         value="#{cc.attrs.usernameValue}"
+                         required="true" requiredMessage="Username is required"
+                         validatorMessage="#{cc.attrs.usernameValidatorMessage}"/>
+            <h:message for="#{cc.clientId}:username"/>
+
+            <h:outputLabel for="#{cc.clientId}:password" value="Password:"/>
+            <h:inputSecret id="password"
+                         value="#{cc.attrs.passwordValue}"
+                         requiredMessage="Password is required" required="true"
+                         validatorMessage="#{cc.attrs.passwordValidatorMessage}"/>
+            <h:message for="#{cc.clientId}:password"/>
+
+            <h:outputLabel value="Login:" for="loginButton"/>
+            <h:commandButton id="loginButton"
+                    value="#{cc.attrs.loginButtonText}"
+                    action="#{cc.attrs.loginButtonAction}"/>
+
+        </h:panelGrid>
+
+    </cc:implementation>
+
+</html>
